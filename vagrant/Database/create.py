@@ -8,4 +8,6 @@ session=DBsession()
 '''mySecondRestaurant=Restaurant(name="Pizza Palace")
 session.add(mySecondRestaurant)
 session.commit()'''
-session.query(Restaurant).all()
+print(session.query(Restaurant).all())
+#for updating simple use 'Classname.attribute'=value
+#session.delete(Class Name) 
