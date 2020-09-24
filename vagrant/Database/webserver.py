@@ -54,7 +54,7 @@ class WebServerHandler(BaseHTTPRequestHandler):
 				#print(output)
 				return
 			except:
-				print("MAA ki chut")
+				print("")
 
 
 
